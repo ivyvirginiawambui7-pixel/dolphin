@@ -1,36 +1,42 @@
 # Maison Noir
 
-A simple static restaurant website for a fine dining brand.
+A static restaurant website with multiple pages for a fine dining brand.
 
 ## Description
 
-Maison Noir is a one-page restaurant landing site with a hero section, menu highlights, about section, and contact info. It is built with plain HTML and CSS.
+Maison Noir is a multi-page HTML/CSS website featuring a homepage, menu page, about page, and contact page. It uses simple static files and works in any browser without a server.
 
 ## Files
 
-- `index.html` — main homepage
-- `style.css` — page styles
-- `menu.html` — menu page (if included)
-- `about.html` — about page (if included)
-- `contact.html` — contact page (if included)
+- `index.html` — homepage
+- `menu.html` — menu page
+- `about.html` — about page
+- `contact.html` — contact page
+- `style.css` — shared styling
+- `images/` — image assets used by the site
 
-## How to view
+## How to view locally
 
 1. Open `index.html` in your browser.
-2. Or deploy the project to GitHub Pages, Netlify, or Vercel for a live site.
-
-## Notes
-
-- This site is static, so it does not need a web server to run locally.
-- Add more pages or images as needed to improve the design.
+2. Use the navigation links to visit `menu.html`, `about.html`, and `contact.html`.
 
 ## Deployment
 
-For GitHub Pages:
-1. Create a GitHub repo.
-2. Add these files.
-3. Enable GitHub Pages on the repository.
+You can deploy this site to GitHub Pages, Netlify, Vercel, or another static hosting provider.
 
-For Netlify:
-1. Drag the folder into Netlify or connect the repo.
-2. Netlify will publish the site.
+### GitHub Pages
+1. Create a GitHub repository.
+2. Add all files and folders from this project.
+3. Enable GitHub Pages in the repository settings.
+4. Your site will be live at `https://username.github.io/repo-name/`.
+
+### Netlify
+1. Sign up at `netlify.com`.
+2. Create a new site and drag the project folder into Netlify.
+3. Netlify will publish a live URL for your site.
+
+## Notes
+
+- This is a static site and does not require a backend.
+- Update the text, menu items, and images to customize the restaurant experience.
+
